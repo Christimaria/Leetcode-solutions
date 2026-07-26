@@ -1,18 +1,43 @@
 """
 LeetCode 242 - Valid Anagram
 
-Difficulty:
-Easy
+Pattern:
+Hash Map (Frequency Counting)
 
-Concept:
-Hash Map (Dictionary)
+------------------------------------------------------------
+Function Signature
 
-Problem:
-Return True if two strings are anagrams of each other.
+def isAnagram(self, s, t)
 
-Approach:
-1. If lengths are different, return False.
-2. Count the frequency of each character in both strings.
+self
+- Refers to the Solution object.
+- Automatically created by LeetCode.
+
+s
+- First input string.
+
+Example:
+s = "anagram"
+
+t
+- Second input string.
+
+Example:
+t = "nagaram"
+
+LeetCode calls:
+
+Solution().isAnagram("anagram", "nagaram")
+
+Return:
+True if both strings are anagrams.
+False otherwise.
+
+------------------------------------------------------------
+Approach
+
+1. If lengths differ, return False.
+2. Count character frequencies for both strings.
 3. Compare both dictionaries.
 
 Time Complexity:
@@ -23,6 +48,8 @@ O(n)
 
 Pattern Learned:
 Frequency Counting using Hash Map
+
+------------------------------------------------------------
 """
 
 class Solution(object):
