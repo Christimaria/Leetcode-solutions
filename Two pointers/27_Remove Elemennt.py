@@ -1,3 +1,6 @@
+'''
+This is the same Two Pointer pattern as Move Zeroes. Instead of keeping non-zero elements, I'm keeping elements that are not equal to val.
+'''
 class Solution:
     def removeElement(self, nums, val):
 
