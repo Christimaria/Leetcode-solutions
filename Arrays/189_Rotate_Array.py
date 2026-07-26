@@ -10,10 +10,10 @@ Array Manipulation
 Problem:
 Rotate the array to the right by k steps.
 
-Approach                        	Time	  Space
-Brute Force (rotate one by one)	 O(n × k)	 O(1)
-Extra Array                    	 O(n)	     O(n)
-Reverse Method (Optimal)	       O(n)     O(1)
+Approach                        	Time	    Space
+Brute Force (rotate one by one)	    O(n × k)	 O(1)
+Extra Array                    	    O(n)	     O(n)
+Reverse Method (Optimal)	        O(n)         O(1)
 
 Intuition:
 Instead of shifting one element at a time,
@@ -46,7 +46,8 @@ Space Complexity:
 O(1)
 
 Pattern Learned:
-Reverse Array
+
+Reverse Array 
 """
 class Solution(object):
     def rotate(self, nums, k):
@@ -62,4 +63,23 @@ class Solution(object):
         reverse(0, n - 1)      # Reverse whole array
         reverse(0, k - 1)      # Reverse first k elements
         reverse(k, n - 1)      # Reverse remaining elements
+"""
+Brute force
+"""
+class Solution(object):
+    def rotate(self, nums, k):
+        k = k % len(nums)
+
+        for _ in range(k):
+            last = nums[-1]
+
+            for i in range(len(nums) - 1, 0, -1):
+                nums[i] = nums[i - 1]
+
+            nums[0] = last
+            
+        return nums  # Added return statement
+
+        
+
  
