@@ -1,6 +1,6 @@
 # Leetcode-solutions
 
-This repository contains my LeetCode solutions while learning Data Structures and Algorithms.
+Welcome to my LeetCode solutions repository! This repository documents my journey of learning Data Structures and Algorithms using Python.
 
 ## Topics
 
