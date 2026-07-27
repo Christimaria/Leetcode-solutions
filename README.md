@@ -26,3 +26,5 @@ Welcome to my LeetCode solutions repository! This repository documents my journe
 | 268 | Missing Number | Math |
 | 283 | Move Zeroes | Two Pointers |
 | 3 | Longest Substring Without Repeating Characters | Sliding Window |
+| 424 | Longest Repeating Character Replacement | Sliding Window |
+
