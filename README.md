@@ -31,5 +31,6 @@ Welcome to my LeetCode solutions repository! This repository documents my journe
 | 438 |Find All Anagrams in a String | Sliding Window |
 | 567 | Permutation in String | Sliding Window |
 | 76 | Minimum Window Substring | Sliding Window |
-| 704 |Binary Search |Binary Search|
+| 704 | Binary Search |Binary Search|
+| 35 | Search Insert Position |Binary Search|
 
