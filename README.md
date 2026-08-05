@@ -32,8 +32,9 @@ Welcome to my LeetCode solutions repository! This repository documents my journe
 | 567 | Permutation in String | Sliding Window |
 | 76 | Minimum Window Substring | Sliding Window |
 | 704 | Binary Search |Binary Search|
-| 35 | Search Insert Position |Binary Search|
+| 35 | Search Insert Position | Binary Search|
 | 69 | Sqrt(x)| Binary search |
+| 367 | Valid Perfect Square | Binary search | 
 
 
        
