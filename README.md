@@ -36,6 +36,7 @@ Welcome to my LeetCode solutions repository! This repository documents my journe
 | 69 | Sqrt(x)| Binary search |
 | 367 | Valid Perfect Square | Binary search | 
 | 278 | First Bad Version | Binary search | 
+| 374 | Guess Number Higher or Lower | Binary search |
 
 
        
